@@ -4,4 +4,6 @@
 // і поставте їм розмір шрифту 35px.
 
 // Завдання виділене вставкою Task1
-
+const $head = $("h2.head");
+$head.css("background-color", "green");
+$head.find(".inner").css("font-size", "35px");

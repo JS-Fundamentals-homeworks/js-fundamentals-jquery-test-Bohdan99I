@@ -4,3 +4,8 @@
 
 // Завдання виділене вставкою Task2
 
+$("a").each(function() {
+    if ($(this).attr("href").startsWith("https://")) {
+        $(this).attr("target", "_blank");
+    }
+})
